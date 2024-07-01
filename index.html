@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM Validation</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="body-conatiner">
+
+
+        <div class="Form-validtaion conatiner">
+
+            <h2>Sign up here</h2>
+
+            
+
+            <label>Full name</label>
+            <input type="text"  id="text"/>
+            <div id="nameError" class="error"></div>
+
+            <label>Mobile</label>
+            <input type="number" id="number">
+            <div id="mobileError" class="error"></div>
+            
+
+            <label>E-mail</label>
+            <input type="email"  id="email"/>
+            <div id="emailError" class="error"></div>
+
+            <label>Password</label>
+            <input type="password" id="password">
+            <div id="passwordError" class="error"></div>
+
+            <button id="Submit"    onclick="validateForm()" >Submit</button>
+
+
+        </div>
+        <div class="illustration-container">
+
+           <img src="World-bro.png" alt="illustration" width="300px" height="300px">
+
+           <h3>
+            Hello My World! 
+
+           </h3>
+         
+
+
+
+        </div>
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

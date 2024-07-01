@@ -1,0 +1,132 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.body-conatiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(151, 156, 161);
+    width: 100%;
+    height: 100vh;
+    background: #E0EAFC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+
+}
+
+
+.Form-validtaion {
+
+    background-color: white;
+    width: 25%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 6%;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+    padding-top: 1%;
+
+
+
+}
+
+h2 {
+    padding-left: 4%;
+    margin-bottom: 8%;
+    font-weight: 600;
+}
+
+h3 {
+    color: white;
+}
+h5{
+    color: white;
+}
+
+
+.Form-validtaion>input {
+    width: 75%;
+    height: 28px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: #e2e5eb;
+    border-radius: 2%;
+
+
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.Form-validtaion>label {
+    margin-top: 2%;
+    font-size: small;
+    color: rgb(95, 94, 94);
+
+}
+
+button {
+    width: 75%;
+    margin-top: 8%;
+    font-weight: 550;
+    background-color: #4c12c0;
+    color: rgb(255, 255, 255);
+    border-style: none;
+    padding: 3%;
+    border-radius: 3%;
+}
+
+
+.illustration-container {
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 30%;
+    height: 70vh;
+
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+
+    padding-bottom: 5%;
+    background-color: white;
+
+    background: #8E2DE2;
+
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+
+
+}
+
+p{
+    font-size: medium;
+    font-weight: 200;
+}
+
+
+.error {
+    color: red;
+    font-size: 12px;
+}
