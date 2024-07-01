@@ -5,6 +5,7 @@
 ## Skills Required
 * Html
 * Css
+* Javascript
 
 ## Result
 ![](formpage.png)
